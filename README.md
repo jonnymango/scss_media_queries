@@ -4,14 +4,14 @@ Simple SCSS mixin set up for media queries
 ## Usage
 ```
 .foo {
-@include mobile {
-    background: green;
-    @include mobile {
-	background: yellow;
-    }
-    @include mobile {
-        background: blue;
-    }    
-
+   @include mobile {
+       background: green;
+       @include mobile {
+   	   background: yellow;
+       }
+       @include mobile {
+          background: blue;
+       }
+   }    
 }
 ```
